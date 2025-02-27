@@ -1,0 +1,19 @@
+package ch02.sec05;
+
+public class booleanEx2 {
+
+	public static void main(String[] args) {
+
+		boolean stop = true;
+		
+		stop = false;
+		
+		boolean check = 5 == 5;
+		
+		System.out.println(check);
+			
+		
+		
+	}
+
+}
