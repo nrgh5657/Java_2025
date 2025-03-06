@@ -31,6 +31,10 @@ public class Lotto04 {
 		
 		
 		 }
+		for(int i =0; i<lotto.length; i++) {
+			System.out.print(lotto[i] + " ");
+		}
+		System.out.println();
 		System.out.println(Arrays.toString(lotto));
 		
 			
