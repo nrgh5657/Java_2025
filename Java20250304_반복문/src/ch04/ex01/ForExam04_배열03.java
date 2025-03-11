@@ -10,7 +10,7 @@ public class ForExam04_배열03 {
 		int[]num = new int[5]; //배열 선언, int 배열5개		
 	
 		int sum = 0;
-		for(int i=0; i<5; i++) {
+		for(int i=0; i<num.length; i++) {
 			System.out.println(i+1 + "번학생 자바 점수: ");
 			num[i] = sc.nextInt();
 			sum += num[i];
