@@ -1,4 +1,4 @@
-package ex02;
+package ex03;
 
 public class UniversityStudent extends Student {
 
@@ -14,7 +14,9 @@ public class UniversityStudent extends Student {
 	this.major = major;
 	}
 	
-	void registerCourse() {}
+	void registerCourse() {
+		System.out.println("registerCourse()......");
+	}
 	@Override
 	public String toString() {
 		return "UniversityStudent [major = " + major + "]";

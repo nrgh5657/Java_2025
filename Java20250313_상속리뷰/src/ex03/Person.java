@@ -1,4 +1,4 @@
-package ex02;
+package ex03;
 
 public class Person {
 	private String name;
@@ -21,7 +21,9 @@ public class Person {
 	public String toString() {
 		return "Person [name = " + name + "]";
 	}
-	void sleep() {}
+	void sleep() {
+		System.out.println("sleep()......");
+	}
 	
 	void eat() {}
 

@@ -1,4 +1,4 @@
-package ex02;
+package ex04;
 
 public class Student extends Person {
 	
@@ -13,7 +13,9 @@ public class Student extends Person {
 		this.grade = grade;		
 		
 	}
-	void study() {}
+	void study() {
+		System.out.println("study()......");
+	}
 	
 	public String toString() {
 		return "Student [schoolNmae = " + schoolName + "]";
