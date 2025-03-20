@@ -1,5 +1,11 @@
 package Practice;
 
+import lombok.Data;
+import lombok.Getter;
+
+@Data
+@Getter
+
 public class Info {
 
 	private String name;
@@ -11,18 +17,7 @@ public class Info {
 		
 	}
 	
-	String getName() {
-		return name;
-	}
-	String getPhone() {
-		return phone;
-	}
-	String getMajor() {
-		return major;
-	}
-	int getAge() {
-		return age;
-	}
+
 	
 	Info(String name){
 		this.name = name; 
